@@ -1,0 +1,5 @@
+s1 = list(input())
+s2 = input()
+k = int(input())
+s1.insert(k-1, s2)
+print(*s1,sep="")
